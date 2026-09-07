@@ -1,0 +1,6 @@
+title: "Raunav Ghosh"
+description: "Computer Vision & ML Engineer"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
