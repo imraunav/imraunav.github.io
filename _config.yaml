@@ -1,9 +1,14 @@
 title: "Raunav Ghosh"
 description: "Computer Vision & ML Engineer"
-theme: minima
+remote_theme: jekyll/minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+
+minima:
+  skin: auto   # Automatically matches visitor's OS dark/light setting
+  # Or use 'dark' to force dark mode permanently
 exclude:
   - AGENTS.md
   - CLAUDE.md
