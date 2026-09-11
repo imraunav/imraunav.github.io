@@ -3,7 +3,7 @@ description: "Computer Vision & ML Engineer"
 remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-seo-tag
 
 minima:

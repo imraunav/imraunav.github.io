@@ -37,6 +37,10 @@ I'm a computer vision and machine learning engineer focused on **representation 
 *M.Tech in Communication and Signal Processing (Machine Learning Specialization)*  
 *August 2022 – May 2024*
 
+#### Honors
+* *Outstanding Academic Achievement Award*
+* *Vehant Research Fellowship*
+
 ### University of Engineering and Management (UEM), Kolkata
 *B.Tech in Electronics and Communications Engineering*  
 *August 2017 – May 2021*
