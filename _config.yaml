@@ -4,3 +4,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - .agent-memory/
