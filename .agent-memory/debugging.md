@@ -9,6 +9,16 @@
   ```bash
   bundle exec jekyll serve
   ```
+- **Sass Deprecation Warnings (Dart Sass / `sass-embedded`):**
+  When building with `jekyll-sass-converter` >= 3.0 and modern Dart Sass, Minima's legacy `@import` and color functions emit verbose deprecation warnings. These are suppressed in `_config.yaml` using:
+  ```yaml
+  sass:
+    quiet_deps: true
+    silence_deprecations:
+      - import
+      - color-functions
+      - global-builtin
+  ```
 
 ## Common Issues & Checks
 - **YAML Front Matter:** Ensure valid YAML syntax between triple dashes (`---`) at the top of Markdown files.

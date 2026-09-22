@@ -2,9 +2,9 @@
 
 ## Key Files & Directories
 
-- `_config.yaml`: Jekyll site configuration. Defines site title, description, `minima` theme, active plugins (`jekyll-feed`, `jekyll-seo-tag`), and exclusions for agent-only documents.
-- `assets/main.scss`: Imports `minima` and adds custom styling. Compiles to `/assets/main.css`, the stylesheet linked by Minima's default head include.
-- `index.md`: The primary landing page (`layout: home`). Contains the bio hero banner, experience timeline cards, education grid, and technical toolkit.
+- `_config.yaml`: Jekyll site configuration. Defines site title, description, URL, `minima` remote theme, active plugins (`jekyll-remote-theme`, `jekyll-seo-tag`), Sass deprecation options, and exclusions for agent-only documents.
+- `_sass/minima/custom-styles.scss`: Custom styling hooked directly into Minima 3's SCSS pipeline. Styles section heading icons, social pills, date badges, honors tags, and skill chips using Minima's theme CSS custom properties.
+- `index.md`: The primary landing page (`layout: home`). Contains the bio hero with status indicator and social pills, experience timeline, education with honors badges, and technical toolkit skill tags.
 - `AGENTS.md`: Entrypoint instruction file for AI agents, redirecting to `CLAUDE.md`.
 - `CLAUDE.md`: Working instructions, conventions, and reminders for agent workflows.
 - `.agent-memory/`: Persistent memory notes and context for AI agents working in this repository.

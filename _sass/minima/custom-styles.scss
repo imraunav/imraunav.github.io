@@ -1,0 +1,283 @@
+/* Custom styling for Raunav Ghosh Portfolio */
+
+/* Hero & Status */
+.hero-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  background: var(--minima-code-background-color);
+  border: 1px solid var(--minima-border-color-01);
+  color: var(--minima-text-color);
+  margin-bottom: 1.1rem;
+}
+
+.status-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
+  display: inline-block;
+}
+
+/* Social Link Pills */
+.social-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 1.25rem 0 1.75rem 0;
+}
+
+.social-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  color: var(--minima-text-color) !important;
+  background-color: var(--minima-code-background-color);
+  border: 1px solid var(--minima-border-color-01);
+  transition: all 0.2s ease;
+}
+
+.social-pill:hover {
+  border-color: var(--minima-link-base-color);
+  color: var(--minima-link-base-color) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.social-pill svg {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Section Headings with Icons */
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 0.45rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid var(--minima-border-color-01);
+  font-size: 1.4rem;
+}
+
+.section-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background-color: var(--minima-code-background-color);
+  border: 1px solid var(--minima-border-color-01);
+  color: var(--minima-link-base-color);
+  flex-shrink: 0;
+}
+
+.section-icon svg {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Timeline / Item Header */
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.item-header h3 {
+  margin: 0;
+  font-size: 1.12rem;
+}
+
+.date-badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--minima-brand-color);
+  background: var(--minima-code-background-color);
+  border: 1px solid var(--minima-border-color-01);
+  padding: 2px 9px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.item-subtitle {
+  font-size: 0.95rem;
+  color: var(--minima-brand-color);
+  margin-top: 0.15rem;
+  margin-bottom: 0.6rem;
+  font-style: italic;
+}
+
+/* Experience Lists */
+.experience-list {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.experience-list > li {
+  margin-bottom: 0.65rem;
+  line-height: 1.55;
+}
+
+/* Honors Highlight */
+.honors-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.honor-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.825rem;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 6px;
+  background: var(--minima-code-background-color);
+  border: 1px solid var(--minima-border-color-01);
+  color: var(--minima-text-color);
+}
+
+.honor-tag svg {
+  width: 14px;
+  height: 14px;
+  stroke: #d97706;
+  fill: none;
+  stroke-width: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+  .honor-tag svg {
+    stroke: #f59e0b;
+  }
+}
+
+/* Skill Tags / Chips */
+.skill-category {
+  margin-bottom: 1.1rem;
+}
+
+.skill-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--minima-brand-color);
+  margin-bottom: 0.45rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 0.84rem;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  background: var(--minima-code-background-color);
+  border: 1px solid var(--minima-border-color-01);
+  border-radius: 6px;
+  color: var(--minima-text-color);
+  transition: all 0.15s ease;
+}
+
+.skill-tag:hover {
+  border-color: var(--minima-link-base-color);
+  color: var(--minima-link-base-color);
+}
+
+/* Entry Rows with Company & Institute Logos */
+.entry-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.entry-logo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid var(--minima-border-color-01);
+  padding: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+  margin-top: 2px;
+}
+
+.entry-logo-link:hover {
+  transform: translateY(-2px);
+  border-color: var(--minima-link-base-color);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.entry-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+  border-radius: 4px;
+}
+
+.entry-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.entry-content .item-header {
+  margin-top: 0;
+}
+
+.org-link {
+  color: var(--minima-heading-color) !important;
+  text-decoration: none !important;
+  transition: color 0.15s ease;
+}
+
+.org-link:hover {
+  color: var(--minima-link-base-color) !important;
+}
+

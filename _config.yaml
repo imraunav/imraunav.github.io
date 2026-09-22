@@ -1,5 +1,6 @@
 title: "Raunav Ghosh"
 description: "Computer Vision & ML Engineer"
+url: "https://imraunav.github.io"
 remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
@@ -9,6 +10,14 @@ plugins:
 minima:
   skin: auto   # Automatically matches visitor's OS dark/light setting
   # Or use 'dark' to force dark mode permanently
+
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - color-functions
+    - global-builtin
+
 exclude:
   - AGENTS.md
   - CLAUDE.md

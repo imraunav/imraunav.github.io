@@ -7,4 +7,4 @@
   - Bullet points emphasizing key responsibilities, methodologies, and technical tools.
 - **Links:** Verify social and email links in `index.md` are accurate and active.
 - **Projects Section:** If adding featured projects or blog posts, reference the commented HTML template in `index.md`.
-- **Formatting:** Preserve Jekyll front matter (`layout: home`, `title: About`) at the top of `index.md`.
+- **Formatting:** Preserve Jekyll front matter (`layout: home`) at the top of `index.md`. Omit `title: About` so Minima does not render a duplicate heading above the hero introduction.
